@@ -37,3 +37,26 @@ console.log(typeof outsideTemp);
 console.log(typeof scoreValue);
 console.log(typeof myFunction);
 console.log(typeof Anotherid);
+
+// ----------------------------------------------------Memory----------------------------------------------------------
+
+// Stack (Premitive), Heap (Non-Premitive)
+
+let myName = "Raj_Savita"
+
+let anotherName = "Raj_Rajput"
+
+console.log(myName);
+console.log(anotherName);
+
+let userOne = {
+    email: "User@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "raj.snssystem@gamil.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
