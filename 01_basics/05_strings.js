@@ -3,7 +3,7 @@ const uid = "123456"
 
 // console.log(name + uid + "Value"); This is not a good practice must not be use
 
-console.log(`This ${name} and my User Id is ${uid}`); // The `` name is Backics and this is string interpulition This is the new way to create string also can add methods like ${name.ToUppercase} 
+console.log(`This ${name} and my User Id is ${uid}`); // The `` name is Backics and this is string interpulition This is the new way to create string also can add methods like ${name.toUpperCase()} 
 
 const gameName = new String(`Battel Ground Mobile India`)
 
@@ -39,4 +39,5 @@ const url = "https://rajsavita.com/raj%20savita"
 
 console.log(url.replace('%20', '-'));
 
-console.log(gameName.split('-'));
+console.log(gameName.split(' ')); //split() splits a string into an array of substrings, and returns the array:
+

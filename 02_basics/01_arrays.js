@@ -16,7 +16,7 @@ const myArr2 = new Array(1, 2, 3, 4 )
 // myArr.shift()           //shift use to remove the first element of the array
 
 // console.log(myArr.includes(5));//This function is use to know if the element is in the array or not
-// console.log(myArr.indexOf(3));//Tells the index of the element
+// console.log(myArr.indexOf(3));//Tells the index "position" of the element
 
 const newArr = myArr.join() //adds(Bind) all the elements of arrays to the string
 // console.log(myArr);

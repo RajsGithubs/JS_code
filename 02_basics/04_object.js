@@ -2,7 +2,7 @@
 const FbUser = {}  //This is not an singleton object except other things are same
 
 FbUser.id = "123abc"
-FbUser.name = "Raja"
+FbUser.name = "Raju"
 FbUser.isLoggedIn = true
 
 // console.log(FbUser);
