@@ -3,7 +3,7 @@ const uid = "123456"
 
 // console.log(name + uid + "Value"); This is not a good practice must not be use
 
-console.log(`This ${name} and my User Id is ${uid}`); // The `` name is Backics and this is string interpulition This is the new way to create string also can add methods like ${name.toUpperCase()} 
+console.log(`This ${name} and my User Id is ${uid}`); // The `` name is Backtiks and this is string interpulition This is the new way to create string also can add methods like ${name.toUpperCase()} 
 
 const gameName = new String(`Battel Ground Mobile India`)
 
