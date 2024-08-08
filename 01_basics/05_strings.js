@@ -39,5 +39,8 @@ const url = "https://rajsavita.com/raj%20savita"
 
 console.log(url.replace('%20', '-'));
 
+console.log(url.includes("raj"));
+
+
 console.log(gameName.split(' ')); //split() splits a string into an array of substrings, and returns the array:
 
