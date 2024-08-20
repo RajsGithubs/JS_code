@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <title>Dom</title>
+    <style>
+        .bg-black{
+            background-color: #212121;
+            color: #fff;
+        }
+    </style>
+</head>
+<body class="bg-black">
+ <ul class="language">
+    <li>JavaScript</li>
+ </ul>
+</body>
+<script>
+   function addLanguage(Langname) {
+        const li = document.createElement('li');
+        li.innerHTML = `${Langname}`
+        document.querySelector('.language').appendChild(li)
+   }
+   addLanguage("python")
+   addLanguage("typescript")
+
+
+
+   function addoptiLanguage(Langname) {     //Optimise way
+        const li =  document.createElement('li');
+        li.appendChild(document.createTextNode(Langname))
+        document.querySelector('.language').appendChild(li)
+   }
+   addoptiLanguage("golang")
+</script>
+</html>
