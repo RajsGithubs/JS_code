@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <title>Dom</title>
+    <style>
+        .bg-black{
+            background-color: #212121;
+            color: #fff;
+        }
+    </style>
+</head>
+<body class="bg-black">
+ 
+</body>
+<script>
+    const div =  document.createElement('div')
+    console.log(div);
+    div.className = "main"
+    div.id = Math.round(Math.random() + 10 + 1)
+    div.setAttribute("title", "generated title")
+    div.style.backgroundColor = "green"
+    div.style.padding = "12px"
+    // div.innerText = "Raj Code"   //it overrite the current attributes
+    const addText = document.createTextNode("This is new Dom")
+    div.appendChild(addText)
+    document.body.appendChild(div)
+</script>
+</html>
